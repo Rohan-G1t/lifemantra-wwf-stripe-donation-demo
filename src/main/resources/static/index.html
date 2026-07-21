@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donate</title>
+</head>
+
+<body>
+
+<h1>Support Our Cause</h1>
+
+<label>
+    Donation amount ($):
+    <input id="amount" type="number" value="10" min="1">
+</label>
+
+<br><br>
+
+<button onclick="donate()">
+    Donate
+</button>
+
+<script>
+function donate() {
+    const amount = document.getElementById("amount").value;
+
+    fetch("/donate?amount=" + amount, {
+        method: "POST"
+    })
+    .then(response => response.json())
+    .then(data => {
+        window.location.href = data.url;
+    });
+}
+</script>
+
+</body>
+</html>
