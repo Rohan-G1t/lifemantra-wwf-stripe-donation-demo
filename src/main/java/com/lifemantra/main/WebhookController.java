@@ -1,4 +1,4 @@
-package com.thecodealchemist.main;
+package com.lifemantra.main;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

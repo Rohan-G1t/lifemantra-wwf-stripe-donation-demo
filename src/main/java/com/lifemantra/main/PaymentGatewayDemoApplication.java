@@ -1,4 +1,4 @@
-package com.thecodealchemist.main;
+package com.lifemantra.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.thecodealchemist.main.config;
+package com.lifemantra.main.config;
 
 import com.stripe.Stripe;
 import jakarta.annotation.PostConstruct;

@@ -1,4 +1,4 @@
-package com.thecodealchemist.main;
+package com.lifemantra.main;
 
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
