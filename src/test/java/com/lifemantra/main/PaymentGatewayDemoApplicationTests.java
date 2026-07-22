@@ -1,4 +1,4 @@
-package com.thecodealchemist.main;
+package com.lifemantra.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
