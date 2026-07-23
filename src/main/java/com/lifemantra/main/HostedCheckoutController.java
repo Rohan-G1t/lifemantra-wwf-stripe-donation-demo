@@ -19,8 +19,8 @@ public class HostedCheckoutController {
         SessionCreateParams params =
                 SessionCreateParams.builder()
                         .setMode(SessionCreateParams.Mode.PAYMENT)
-                        .setSuccessUrl("http://localhost:8080/success.html")
-                        .setCancelUrl("http://localhost:8080/cancel.html")
+                        .setSuccessUrl("https://lifemantra-wwf-stripe-donation-demo.onrender.com/success.html")
+                        .setCancelUrl("https://lifemantra-wwf-stripe-donation-demo.onrender.com/cancel.html")
                         .addLineItem(
                                 SessionCreateParams.LineItem.builder()
                                         .setQuantity(1L)
